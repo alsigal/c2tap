@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">C-II tap</string>
+    <string name="url_prompt">Type a URL</string>
+    <string name="message">Type a message</string>
+    <string name="phone">Type phone number or choose one from\n your contacts</string>
+    <string name="choose_contacts">Choose from contacts</string>
+    <string name="save_button">Save</string>
+    <string name="data_text">Type text to store</string>
+    <string name="phone_call_uri">application/c20</string>
+    <string name="sms_uri">application/c21</string>
+    <string name="next">application/c22</string>
+    <string name="prev">application/c23</string>
+    <string name="toggle">application/c24</string>
+    <string name="launch">application/c25</string>
+</resources>

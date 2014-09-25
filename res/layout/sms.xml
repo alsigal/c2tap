@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"
+            android:gravity="top|left"
+            android:layout_weight="0.70"
+            android:maxLength="90"
+            android:hint="@string/message"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxLength="15"
+            android:ems="10"
+            android:id="@+id/contactNumBox"
+            android:layout_weight="0.10"
+            android:hint="@string/phone"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose contact"
+            android:id="@+id/contactButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.10"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_button"
+            android:id="@+id/saveButton"
+            android:layout_weight="0.10"/>
+</LinearLayout>
