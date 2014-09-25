@@ -2,7 +2,9 @@ c2tap
 =====
 
 Android app for C-II apparel: http://www.ctwoapparel.com
-An NFC tag is sewn on the inside ofa shirt or jacket. "C-II tap" allows you to program the tag to:
+
+An NFC tag is sewn on the inside of a shirt or jacket.
+"C-II tap" allows you to program the tag to:
   - Share your contact information by letting people tap the tag.
   - Launch a URL in a browser once tag is tapped.
   - Play or pause music with a tap.
